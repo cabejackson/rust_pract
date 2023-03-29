@@ -28,6 +28,12 @@ fn main() {
     // let x = five();
     // println!("The value of x is {x}!");
     //-------------------------------------
+
+    //-------------------------------------
+    // function w/ returns ex 2
+    // let x = plus_one(5);
+    // println!("The value of x is {x}!");
+    //-------------------------------------
     
 }
 
@@ -50,4 +56,10 @@ fn main() {
 // fn five() -> i32 {
 //     5 // note: no let, fn calls, macros or return...just 5
 // }
+//function w/ returns ex 2
+// fn plus_one(x: i32) -> i32 {
+//     x + 1 
+//     // x + 1; // trying w/ ; gives an error and helpful compiler message
+// }
+
 
